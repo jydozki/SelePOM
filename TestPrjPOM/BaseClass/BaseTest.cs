@@ -20,7 +20,7 @@ namespace TestPrjPOM.BaseClass
 
             using (var browser = new ChromeDriver(chromeOptions))
 
-                //driver = new ChromeDriver();
+                driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             //driver.Url = "https://www.youtube.com/";
             driver.Url = "http://www.eaapp.somee.com";
